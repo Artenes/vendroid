@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>    
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:orientation="vertical"
+	 android:id="@+id/rowLayout"
+> 
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:id="@+id/rowLayout2"
+> 
+    
+    <TextView
+	     android:id="@+ConsultaFornecedorLinhas/txvCodigo"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+    />
+    
+    <TextView
+	     android:id="@+ConsultaFornecedorLinhas/txvBlank"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+	     android:text="  "
+    />
+    
+	<TextView
+	     android:id="@+ConsultaFornecedorLinhas/txvNome"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+    />
+	
+</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:id="@+id/rowLayout2"
+> 
+		
+		<TextView
+		     android:id="@+ConsultaFornecedorLinhas/txvEndereco"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"
+	    />
+		
+		<TextView
+	     android:id="@+ConsultaFornecedorLinhas/txvBlank2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+	     android:text="  "
+    	/>
+		
+		<TextView
+		     android:id="@+ConsultaFornecedorLinhas/txvBairro"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"
+	    />
+
+</LinearLayout>    	
+	
+	<LinearLayout
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:orientation="horizontal"
+	 android:id="@+id/rowLayout"
+	>
+		
+		<TextView
+		     android:id="@+ConsultaFornecedorLinhas/txvTelFixo"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"
+	    />
+		
+		<TextView
+	     android:id="@+ConsultaFornecedorLinhas/txvBlank3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+	     android:text="  "
+    	/>
+		
+		<TextView
+		     android:id="@+ConsultaFornecedorLinhas/txvTelCelular"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"
+	    />
+
+	</LinearLayout>
+</LinearLayout> 

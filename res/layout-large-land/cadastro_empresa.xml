@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFD39B" >
+    
+    <LinearLayout
+	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#8B4513">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vendroid_icon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Cadastro da empresa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/LinearLayout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Razão Social"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+CadastroEmpresa/edtRazaoSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="120"
+                android:hint="Campos Obrigatório..." >
+
+                <requestFocus />
+            </EditText>
+
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome Fantasia"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+CadastroEmpresa/edtNomeFantasia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="120" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:text="CNPJ"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:text="Inscrição Estadual"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtCNPJ"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Campo Obrigatório..."
+                        android:inputType="number"
+                        android:maxLength="18" />
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtInscricaoEstadual"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Campo Obrigatório..."
+                        android:inputType="number"
+                        android:maxLength="15" />
+
+                </TableRow>
+</TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:text="Endereço"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bairro"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtEndereco"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Campo Obrigatório..."
+                        android:inputType="textPostalAddress"
+                        android:maxLength="120" />
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtBairro"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Campo Obrigatório"
+                        android:inputType="textPersonName"
+                        android:maxLength="90" />
+
+                </TableRow>
+
+              
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:text="Cidade"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:text="UF"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:text="CEP"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtCidade"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:maxLength="90" />
+
+
+                    <Spinner
+                        android:id="@+CadastroEmpresa/spnUF"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/UF"
+                        android:prompt="@string/string_uf" />
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtCEP"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </TableRow>
+</TableLayout>            
+            <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Representante"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+CadastroEmpresa/edtRepresentante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="90" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:text="Telefone Contato 1"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:text="Telefone Contato 2"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtTelefoneContatoUm"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Campo Obrigatório..."
+                        android:inputType="phone"
+                        android:maxLength="13" />
+
+
+                    <EditText
+                        android:id="@+CadastroEmpresa/edtTelefoneContatoDois"
+                        android:layout_width="510dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="phone"
+                        android:maxLength="13" />
+
+                </TableRow>
+
+                           </TableLayout>
+            
+            <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+CadastroEmpresa/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:maxLength="90" />
+
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Página Web/Site"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+CadastroEmpresa/edtSite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="90" />
+    
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/LinearLayout"
+    >
+        
+
+            <Button
+                android:id="@+CadastroEmpresa/btnSalvar"
+                android:layout_width="510dp"
+                android:layout_height="wrap_content"
+                android:text="Salvar" />
+
+
+
+        <Button
+            android:id="@+CadastroEmpresa/btnCancelar"
+            android:layout_width="510dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+    
+</LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+        
+    
+    
+</LinearLayout>

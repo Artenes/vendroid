@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>    
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:orientation="vertical"
+	 android:id="@+id/rowLayout"
+> 
+
+
+    
+    <TextView
+	     android:id="@+BuscaRotasLinhas/txvCodigo"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+    />
+    
+	<TextView
+	     android:id="@+BuscaRotasLinhas/txvDescsricao"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceMedium"
+	     android:layout_alignParentLeft="true"
+    />
+		
+		<TextView
+		     android:id="@+BuscaRotasLinhas/txvVendedor"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceSmall"
+		     android:layout_alignParentLeft="true"
+	    />
+		
+		
+</LinearLayout> 

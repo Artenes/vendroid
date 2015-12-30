@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VendasAndroidActivity!</string>
+    <string name="app_name">VendRoid</string>
+    <string name="string_rota">Selecione a rota</string>
+	<string name="string_uf">Selecione o estado</string>
+    <string name="string_grupos">Selecione o grupo</string>
+	<string name="string_vendedor">Selecione o vendedor </string>
+	<string name="string_situacaotributaria">Defina a Situação Tributária do produto</string>
+	<string name="clique_pesquise">Clique para pesquisar... </string>
+    
+    <string-array name="UF">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+    
+    <string-array name="SituacaoTributaria">
+        <item>Tributada integralmente</item>
+        <item>Tributada e com cobrança do ICMS por substituição tributária</item>
+        <item>Com redução de base de cálculo</item>
+        <item>Isenta ou não tributada e com cobrança do ICMS por substituição tributária</item>
+        <item>Isenta</item>
+        <item>Não tributada</item>
+        <item>Suspensão</item>
+        <item>Diferimento</item>
+        <item>ICMS cobrado anteriormente por substituição tributária</item>
+        <item>Com redução de base de cálculo e cobrança do ICMS por substituição tributária</item>
+        <item>Importação direta - Tributada integralmente</item>
+        <item>Importação direta - Tributada e com cobrança do ICMS por substituição tributária</item>
+        <item>Importação direta - Com redução de base de cálculo</item>
+        <item>Importação direta - Isenta ou não tributada e com cobrança do ICMS por substituição tributária</item>
+        <item>Importação direta - Isenta</item>
+        <item>Importação direta - Não tributada</item>
+        <item>Importação direta - Suspensão</item>
+        <item>Importação direta - Diferimento</item>
+        <item>Importação direta - ICMS cobrado anteriormente por substituição tributária</item>
+        <item>Importação direta - Com redução de base de cálculo e cobrança do ICMS por substituição tributária</item>
+        <item>Importação direta - Outras</item>
+        <item>Adquirida no mercado interno - Tributada integralmente</item>
+        <item>Adquirida no mercado interno - Tributada e com cobrança do ICMS por substituição tributária</item>
+        <item>Adquirida no mercado interno - Com redução de base de cálculo</item>
+        <item>Adquirida no mercado interno - Isenta ou não tributada e com cobrança do ICMS por Subst. Trib.</item>
+        <item>Adquirida no mercado interno - Isenta</item>
+        <item>Adquirida no mercado interno - Não tributada</item>
+        <item>Adquirida no mercado interno - Suspensão</item>
+        <item>Adquirida no mercado interno - Diferimento</item>
+        <item>Adquirida no mercado interno - ICMS cobrado anteriormente por substituição tributária</item>
+        <item>Adquirida no mercado interno - Com redução de base de cálculo e cobrança do ICMS por Subst. Trib.</item>
+        <item>Adquirida no mercado interno - Outras</item>
+        <item>Tributada pelo Simples Nacional com permissão de crédito</item>
+        <item>Tributada pelo Simples Nacional sem permissão de crédito</item>
+        <item>Isenção do ICMS no Simples Nacional para faixa de receita bruta</item>
+        <item>Tributada pelo Simples Nacional com permissão de crédito e com cobrança do ICMS por Subst. Trib.</item>
+        <item>Tributada pelo Simples Nacional sem permissão de crédito e com cobrança do ICMS por Subst. Trib.</item>
+        <item>Isenção do ICMS no Simples Nacional - receita bruta e com cobrança do ICMS por Subst. Trib.</item>
+        <item>Imune</item>
+        <item>Não tributada pelo Simples Nacional</item>
+        <item>ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação</item>
+        <item>Outros</item>
+    </string-array>
+    
+    <string-array name="PlanoPagamento">
+        <item>Dinheiro</item>
+        <item>Boleto</item>
+        <item>Cartão</item>
+        <item>Cheque</item>
+    </string-array>
+</resources>
