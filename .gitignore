@@ -6,3 +6,4 @@ gradlew
 gradlew.bat
 import-summary.txt
 local.properties
+*.iml
