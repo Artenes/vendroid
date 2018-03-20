@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFD39B">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#8B4513">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vendroid_icon" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Editar - Usuário"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Código"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <TextView
+            android:id="@+id/EditarUsuario_txvCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <TextView
+                android:id="@+id/CadastroMarcas_txtview"
+                android:layout_width="510dp"
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="510dp"
+                android:layout_height="wrap_content"
+                android:text="Senha"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <EditText
+                android:id="@+id/EditarUsuario_edtNome"
+                android:layout_width="510dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="35" />
+
+
+            <EditText
+                android:id="@+id/EditarUsuario_edtSenha"
+                android:layout_width="510dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" >
+
+                <requestFocus />
+            </EditText>
+
+        </TableRow>
+
+   
+    </TableLayout>
+
+      <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal" >
+
+
+
+
+                 <TextView
+                     android:id="@+id/textView16"
+                     android:layout_width="200dp"
+                     android:layout_height="wrap_content"
+                     android:text="Data de cadastro"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+                 <TextView
+                     android:id="@+id/EditarUsuario_txvData"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="00/00/0000"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+             </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/LinearLayout"
+    android:layout_alignParentBottom="true"
+    android:background="#8B4513"
+    >
+        
+
+        <Button
+            android:id="@+id/EditarUsuario_btnSalvar"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Salvar" />
+
+
+        <Button
+            android:id="@+id/EditarUsuario_btnCancelar"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Cancelar" />
+        
+
+        <Button
+            android:id="@+id/EditarUsuario_btnEditar"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Editar" />
+        
+        <Button
+            android:id="@+id/EditarUsuario_btnExcluir"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Excluir" />
+        
+</LinearLayout>
+        
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

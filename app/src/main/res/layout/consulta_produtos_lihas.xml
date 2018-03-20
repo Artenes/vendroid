@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>    
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:orientation="vertical"
+	 android:id="@+id/rowLayout"
+> 
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:id="@+id/rowLayout2"
+> 
+    
+    <TextView
+	     android:id="@+id/ConsultaProdutosLinhas_txvCodigo"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+    />
+    
+    <TextView
+	     android:id="@+id/ConsultaProdutosLinhas_txvBlank"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+	     android:text="  "
+    />
+    
+	<TextView
+	     android:id="@+id/ConsultaProdutosLinhas_txvDescricao"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+    />
+	
+</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:id="@+id/rowLayout2"
+> 
+		
+		<TextView
+		     android:id="@+id/ConsultaProdutosLinhas_txvMarca"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"
+	    />
+		
+		<TextView
+	     android:id="@+id/ConsultaProdutosLinhas_txvBlank2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+	     android:text="  "
+    	/>
+		
+		<TextView
+		     android:id="@+id/ConsultaProdutosLinhas_txvGrupo"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"
+	    />
+		
+		<TextView
+	     android:id="@+id/ConsultaProdutosLinhas_txvBlank3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textAppearance="?android:attr/textAppearanceLarge"
+	     android:layout_alignParentLeft="true"
+	     android:text="  "
+    	/>
+		
+		<TextView
+		     android:id="@+id/ConsultaProdutosLinhas_txvUnidade"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:layout_alignParentLeft="true"/>
+
+</LinearLayout>    	
+</LinearLayout> 

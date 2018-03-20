@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFD39B">
+    
+    <RelativeLayout
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#8B4513">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vendroid_icon" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Cadastro de Rotas"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >   
+
+<ScrollView
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:layout_marginBottom="2dip"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_above="@+id/LinearLayout"
+    android:background="#FFD39B"
+    >
+    
+<LinearLayout 
+    android:id="@+id/LinearLayoutLOL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/CadastroRotas_EdtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textLongMessage" 
+        android:maxLength="120">
+    <requestFocus/>
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vendedor"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/CadastroRotas_EdtVendedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" 
+        android:clickable="true" 
+        android:editable="false" 
+        android:hint="@string/clique_pesquise" 
+        android:enabled="true"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout"
+    android:layout_alignParentBottom="true"
+    android:background="#8B4513"
+    >
+
+        <Button
+            android:id="@+id/CadastroRotas_btnSalvar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/CadastroRotas_btnCancelar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+    
+    </LinearLayout>
+    </ScrollView>
+    
+
+
+
+    </RelativeLayout>
+    
+	
+</LinearLayout>

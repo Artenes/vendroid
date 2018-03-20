@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD39B"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="LOG IN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#8B4513"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/login_edtUsuario"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="Usuário"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/login_edtSenha"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/login_edtUsuario"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" >
+
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/login_btnEntrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/login_edtSenha"
+        android:text="Entrar" />
+
+
+
+    <Button
+        android:id="@+id/login_btnCancelar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_btnEntrar"
+        android:layout_alignBottom="@+id/login_btnEntrar"
+        android:layout_alignParentRight="true"
+        android:text="Cancelar" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/vendroid_um" />
+
+</RelativeLayout>

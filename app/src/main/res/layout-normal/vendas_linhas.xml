@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/VendaLinha_txvProduto"
+                android:layout_width="64dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/VendaLinha_txvDesconto"
+                android:layout_width="64dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/VendaLinha_txvValor"
+                android:layout_width="64dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:id="@+id/VendaLinha_txvQtd"
+                android:layout_width="64dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/VendaLinha_txvTotal"
+                android:layout_width="64dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+
+    </TableLayout>
+    
+    
+
+</LinearLayout>

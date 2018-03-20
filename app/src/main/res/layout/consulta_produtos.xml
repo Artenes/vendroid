@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFD39B" >
+
+
+    <RelativeLayout
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#8B4513"
+        android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vendroid_icon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Consulta de Produtos"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <EditText
+            android:id="@+id/ConsultaProdutos_edtCodigo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Código"
+            android:inputType="number" />
+
+
+
+        <EditText
+            android:id="@+id/ConsultaProdutos_edtDescricao"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Descr."
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+
+
+        <EditText
+            android:id="@+id/ConsultaProdutos_edtMarca"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Marca"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/ConsultaProdutos_edtGrupo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Grupo"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/ConsultaProdutos_btnPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar" />
+
+    <ListView
+        android:id="@+id/ConsultaProduto_list"
+        android:layout_width="fill_parent"
+        android:layout_height="352dp"
+        android:layout_weight="0.83" >
+    </ListView>
+
+    <Button
+        android:id="@+id/ConsultaProdutos_btnVoltar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+
+</LinearLayout>

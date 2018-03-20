@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFD39B" >
+
+
+
+    <RelativeLayout
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#8B4513"
+        android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vendroid_icon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Consulta Vendas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <EditText
+            android:id="@+id/ConsultaVendas_edtCodigo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Código"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/ConsultaVendas_edtVendedor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Vendedor"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/ConsultaVendas_edtCliente"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Cliente"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+
+
+            <EditText
+                android:id="@+id/ConsultaVendas_edtDataInicial"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Data inicial"
+                android:inputType="date"
+                android:clickable="true"  />
+
+
+
+
+            <EditText
+                android:id="@+id/ConsultaVendas_edtDataFinal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Data final"
+                android:inputType="date"
+                android:clickable="true"  />
+
+        </TableRow>
+
+            </TableLayout>
+
+
+    <Button
+        android:id="@+id/ConsultaVendas_btnPesquisar"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Código"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Vendedor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Cliente"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ConsultaVendas_list"
+        android:layout_width="fill_parent"
+        android:layout_height="352dp"
+        android:layout_weight="0.83"
+        android:background="#FFD39B"
+        android:cacheColorHint="#FFD39B" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayout2"
+    	android:layout_alignParentBottom="true"
+    	android:background="#8B4513" >
+    
+    <Button
+        android:id="@+id/ConsultaVendas_btnVoltar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+	</LinearLayout>
+    
+</LinearLayout>
