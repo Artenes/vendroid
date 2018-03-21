@@ -18,7 +18,6 @@
 			android:configChanges="keyboardHidden|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -56,10 +55,11 @@
             android:screenOrientation="portrait"
 			android:configChanges="keyboardHidden|orientation"></activity>
         
-        <activity android:name="vendroid.cadastro.Cadastro_Grupos"
+        <activity android:name="vendroid.cadastro.GroupsActivity"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait"
-			android:configChanges="keyboardHidden|orientation"></activity>
+			android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/AppStyle"/>
         
         <activity android:name="vendroid.cadastro.Cadastro_Produtos"
             android:windowSoftInputMode="stateHidden"

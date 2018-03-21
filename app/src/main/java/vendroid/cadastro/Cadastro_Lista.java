@@ -38,7 +38,7 @@ public class Cadastro_Lista extends ListActivity{
 		startActivity(new Intent(vendroid.cadastro.Cadastro_Lista.this,vendroid.cadastro.Cadastro_Marcas.class));
 		break;
 	case 3:
-		startActivity(new Intent(vendroid.cadastro.Cadastro_Lista.this,vendroid.cadastro.Cadastro_Grupos.class));
+		startActivity(new Intent(vendroid.cadastro.Cadastro_Lista.this,GroupsActivity.class));
 		break;
 	case 4:
 		startActivity(new Intent(vendroid.cadastro.Cadastro_Lista.this,vendroid.cadastro.Cadastro_Produtos.class));

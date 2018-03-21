@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Cadastros -->
+    <string name="groups">Grupos</string>
+    <string name="description">Descrição</string>
+    <string name="save">Salvar</string>
+    <string name="register_saved">Registro salvo</string>
+    <string name="required_field">Campo obrigatório</string>
+
+
     <string name="hello">Hello World, VendasAndroidActivity!</string>
     <string name="app_name">VendRoid</string>
     <string name="string_rota">Selecione a rota</string>

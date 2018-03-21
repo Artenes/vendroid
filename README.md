@@ -1,6 +1,6 @@
 # Warning
 
-This is the first time I've attempted to develop to Android, so the code is pretty messy and the app is unstable, but usable. I'll return to this repo in the future to refactor the whole application. But for now, use it in your own risk.
+This is the first time I've attempted to develop to Android, so the mCode is pretty messy and the app is unstable, but usable. I'll return to this repo in the future to refactor the whole application. But for now, use it in your own risk.
 
 # Vendroid
 

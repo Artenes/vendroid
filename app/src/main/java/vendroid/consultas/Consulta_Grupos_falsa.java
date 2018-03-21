@@ -4,6 +4,8 @@ import dipro.vendasandroid.R;
 import vendroid.bancodados.Tabela_Administrador;
 import vendroid.bancodados.Tabela_Grupos;
 import vendroid.bancodados.Tabela_Usuario_Atual;
+import vendroid.cadastro.GroupsActivity;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
@@ -76,7 +78,7 @@ public class Consulta_Grupos_falsa extends Activity {
 					public void onClick(View v) {
 						Cursor password = tblAdministrador.ObterSenha(senha.getText().toString());
 						if (password.moveToFirst()) {
-							startActivity(new Intent(Consulta_Grupos_falsa.this,vendroid.cadastro.Cadastro_Grupos.class));
+							startActivity(new Intent(Consulta_Grupos_falsa.this,GroupsActivity.class));
 							senha.setText("");
 							dialog.dismiss();
 						} else {
@@ -95,7 +97,7 @@ public class Consulta_Grupos_falsa extends Activity {
 				if (tblUsuarioAtual.NivelAcesso("1") == 3 || tblUsuarioAtual.NivelAcesso("1") == 2) {
 					dialog.show();
 				} else {
-					startActivity(new Intent(Consulta_Grupos_falsa.this,vendroid.cadastro.Cadastro_Grupos.class));
+					startActivity(new Intent(Consulta_Grupos_falsa.this,GroupsActivity.class));
 				}	
 				
 			}
